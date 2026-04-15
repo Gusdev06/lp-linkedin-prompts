@@ -1,0 +1,1989 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>300+ Prompts para Foto de Perfil Profissional no LinkedIn</title>
+
+    <!-- Tracking scripts removed -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #000;
+            color: #fff;
+            overflow-x: hidden
+        }
+
+        img {
+            max-width: 100%;
+            height: auto
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 16px
+        }
+
+        .text-center {
+            text-align: center
+        }
+
+        .apple-emoji {
+            font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif
+        }
+
+        /* SCROLL REVEAL */
+        .reveal {
+            opacity: 0;
+            transition: opacity .7s cubic-bezier(.4, 0, .2, 1), transform .7s cubic-bezier(.4, 0, .2, 1)
+        }
+
+        .reveal.from-up {
+            transform: translateY(40px)
+        }
+
+        .reveal.from-down {
+            transform: translateY(-40px)
+        }
+
+        .reveal.from-left {
+            transform: translateX(-40px)
+        }
+
+        .reveal.from-right {
+            transform: translateX(40px)
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: none
+        }
+
+        /* HERO */
+        .hero {
+            position: relative;
+            overflow: hidden;
+            padding-bottom: 0;
+            background: linear-gradient(180deg, #000 0%, hsl(210, 90%, 8%) 50%, #000 100%)
+        }
+
+        .hero .container {
+            padding-top: 40px
+        }
+
+        .hero h1 {
+            font-size: clamp(1.25rem, 4vw, 3.5rem);
+            font-weight: 900;
+            line-height: 1.15;
+            margin-bottom: 16px;
+            color: #fff
+        }
+
+        .hero p.subtitle {
+            font-size: clamp(.875rem, 2vw, 1.25rem);
+            color: #b3b3b3;
+            max-width: 640px;
+            margin: 0 auto
+        }
+
+        .highlight {
+            background: #0A66C2;
+            color: #fff;
+            padding: 2px 8px;
+            display: inline;
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone
+        }
+
+        .highlight-yellow {
+            background: #D9FF02;
+            color: #000;
+            padding: 2px 8px;
+            display: inline;
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone
+        }
+
+        .hero-image-wrap {
+            position: relative;
+            max-width: 500px;
+            margin: 32px auto 24px
+        }
+
+        .hero-image-wrap img {
+            position: relative;
+            width: 100%;
+            border-radius: 16px;
+            filter: drop-shadow(0 25px 50px rgba(10, 102, 194, .3))
+        }
+
+        .hero-price-bar {
+            position: relative;
+            margin-top: -16px;
+            background: #fff;
+            padding: 24px 0 32px;
+            text-align: center;
+            clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%)
+        }
+
+        .hero-price-bar .price-old {
+            color: hsl(0, 84%, 60%);
+            text-decoration: line-through;
+            font-size: 1.25rem;
+            font-weight: 700
+        }
+
+        .hero-price-bar .label {
+            color: #000;
+            font-weight: 700;
+            font-size: 1.25rem;
+            margin-top: 4px
+        }
+
+        .hero-price-bar .price-new {
+            color: #0A66C2;
+            font-size: 3rem;
+            font-weight: 900;
+            margin-top: 4px
+        }
+
+        .hero-price-bar .small-text {
+            color: rgba(0, 0, 0, .5);
+            font-size: .75rem;
+            font-weight: 500;
+            margin-top: 4px
+        }
+
+        /* CTA BUTTON */
+        .cta-btn {
+            display: block;
+            width: 100%;
+            max-width: 480px;
+            margin: 0 auto;
+            text-align: center;
+            font-weight: 900;
+            font-size: clamp(1rem, 2.5vw, 1.35rem);
+            padding: 20px 40px;
+            border-radius: 8px;
+            background: #0A66C2;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 0 30px rgba(10, 102, 194, .5);
+            animation: pulsar 1.5s ease-in-out infinite;
+            transition: background .3s
+        }
+
+        .cta-btn:hover {
+            background: #084fa3
+        }
+
+        @keyframes pulsar {
+
+            0%,
+            100% {
+                transform: scale(1)
+            }
+
+            50% {
+                transform: scale(1.06)
+            }
+        }
+
+        /* BENEFITS */
+        .benefits {
+            background: #000;
+            padding: 32px 0 48px;
+            font-family: 'Open Sans', sans-serif
+        }
+
+        .benefits-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            align-items: center
+        }
+
+        @media(min-width:768px) {
+            .benefits-grid {
+                flex-direction: row;
+                gap: 48px
+            }
+        }
+
+        .benefits-list {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px
+        }
+
+        .benefit-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px
+        }
+
+        .benefit-check {
+            flex-shrink: 0;
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+            background: #0A66C2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2px
+        }
+
+        .benefit-check svg {
+            width: 12px;
+            height: 12px;
+            color: #fff
+        }
+
+        .benefit-item p {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #fff
+        }
+
+        .benefits-image {
+            flex: 1;
+            text-align: center
+        }
+
+        .benefits-image img {
+            max-width: 400px;
+            width: 100%;
+            filter: drop-shadow(0 25px 50px rgba(0, 0, 0, .5))
+        }
+
+        /* TARGET */
+        .target {
+            background: #000;
+            padding: 32px 0 48px;
+            position: relative
+        }
+
+        .target-bg {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 120px;
+            background: linear-gradient(180deg, #0A66C2 0%, #084fa3 100%);
+            clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0 100%);
+            z-index: 0
+        }
+
+        .target .container {
+            position: relative;
+            z-index: 1
+        }
+
+        .target h2 {
+            font-size: clamp(1.75rem, 4vw, 3rem);
+            font-weight: 900;
+            margin-bottom: 48px;
+            color: #fff
+        }
+
+        .target h2 .label-highlight {
+            position: relative;
+            display: inline-block;
+            padding: 8px 16px;
+            font-size: 1.875rem;
+            font-weight: 900
+        }
+
+        .target h2 .label-highlight .bg {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 8px;
+            height: 40%;
+            background: linear-gradient(to right, #084fa3, #0A66C2);
+            z-index: 0
+        }
+
+        .target h2 .label-highlight span {
+            position: relative;
+            z-index: 1
+        }
+
+        .target-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+            max-width: 768px;
+            margin: 0 auto
+        }
+
+        @media(min-width:768px) {
+            .target-grid {
+                grid-template-columns: 1fr 1fr
+            }
+        }
+
+        .target-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 12px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, .15)
+        }
+
+        .target-card .emoji {
+            font-size: 1.5rem;
+            flex-shrink: 0
+        }
+
+        .target-card .title {
+            font-weight: 900;
+            font-size: .875rem;
+            margin-bottom: 2px
+        }
+
+        .target-card .title span {
+            background: #0A66C2;
+            color: #fff;
+            padding: 2px 8px;
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone
+        }
+
+        .target-card .desc {
+            font-weight: 500;
+            font-size: .75rem;
+            color: hsl(0, 0%, 30%);
+            line-height: 1.5
+        }
+
+        /* BEFORE/AFTER */
+        .before-after {
+            background: #000;
+            padding: 32px 0 48px
+        }
+
+        .ba-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            max-width: 768px;
+            margin: 0 auto
+        }
+
+        @media(min-width:768px) {
+            .ba-grid {
+                gap: 32px
+            }
+        }
+
+        .ba-grid h3 {
+            font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+            font-weight: 900;
+            text-align: center
+        }
+
+        .ba-grid h3.red {
+            color: hsl(0, 84%, 60%)
+        }
+
+        .ba-grid h3.green {
+            color: #22c55e
+        }
+
+        .ba-grid .subtitle {
+            text-align: center;
+            font-weight: 700;
+            font-size: .875rem
+        }
+
+        .metric {
+            display: flex;
+            flex-direction: column;
+            gap: 4px
+        }
+
+        .metric .label {
+            font-weight: 700;
+            font-size: .875rem
+        }
+
+        .metric .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center
+        }
+
+        .metric .row span {
+            font-size: .75rem;
+            color: #b3b3b3
+        }
+
+        .metric .row .val {
+            font-weight: 700
+        }
+
+        .metric .row .val.red {
+            color: hsl(0, 84%, 60%)
+        }
+
+        .metric .row .val.green {
+            color: #22c55e
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 12px;
+            border-radius: 9999px;
+            background: hsl(0, 0%, 15%);
+            overflow: hidden
+        }
+
+        .progress-fill {
+            height: 100%;
+            border-radius: 9999px;
+            transition: width 1.2s cubic-bezier(.4, 0, .2, 1)
+        }
+
+        .progress-fill.red {
+            background: hsl(0, 84%, 60%)
+        }
+
+        .progress-fill.green {
+            background: #22c55e
+        }
+
+        .progress-fill.waiting {
+            width: 0 !important
+        }
+
+        /* CATEGORIES */
+        .categories {
+            background: linear-gradient(180deg, #000 0%, hsl(0, 0%, 5%) 50%, #000 100%);
+            padding: 32px 0 48px
+        }
+
+        .categories h2 {
+            font-size: clamp(1.5rem, 4vw, 3rem);
+            font-weight: 900;
+            margin-bottom: 32px
+        }
+
+        .cat-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            max-width: 600px;
+            margin: 0 auto
+        }
+
+        @media(min-width:768px) {
+            .cat-grid {
+                grid-template-columns: 1fr 1fr 1fr
+            }
+        }
+
+        .cat-card {
+            background: hsl(0, 0%, 8%);
+            border: 1px solid hsl(0, 0%, 20%);
+            border-radius: 12px;
+            padding: 16px;
+            text-align: center;
+            transition: border-color .3s
+        }
+
+        .cat-card:hover {
+            border-color: rgba(10, 102, 194, .5)
+        }
+
+        .cat-card .emoji {
+            font-size: 2rem;
+            margin-bottom: 8px;
+            display: block
+        }
+
+        .cat-card .name {
+            font-weight: 700;
+            font-size: .875rem;
+            color: #fff;
+            margin-bottom: 4px
+        }
+
+        .cat-card .count {
+            font-size: .75rem;
+            color: #0A66C2;
+            font-weight: 600
+        }
+
+        /* Cat cards com imagem */
+        .cat-grid-img {
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            max-width: 700px
+        }
+
+        @media(min-width:768px) {
+            .cat-grid-img {
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 16px
+            }
+        }
+
+        .cat-card-img {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            aspect-ratio: 3/4;
+            cursor: default;
+            transition: transform .3s
+        }
+
+        .cat-card-img:hover {
+            transform: scale(1.03)
+        }
+
+        .cat-card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block
+        }
+
+        .cat-card-label {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0, 0, 0, .85));
+            padding: 12px;
+            text-align: center
+        }
+
+        .cat-card-label .name {
+            font-weight: 800;
+            font-size: .85rem;
+            color: #fff;
+            margin-bottom: 2px
+        }
+
+        .cat-card-label .count {
+            font-size: .7rem;
+            color: #1a91da;
+            font-weight: 700
+        }
+
+        /* BONUS */
+        .bonus-section {
+            padding: 32px 0 48px;
+            background: linear-gradient(180deg, #000 0%, hsl(0, 0%, 8%) 50%, #000 100%)
+        }
+
+        .bonus-section h2 {
+            font-size: clamp(1.5rem, 4vw, 3rem);
+            font-weight: 900;
+            margin-bottom: 16px
+        }
+
+        .bonus-section .subtitle-tag {
+            background: #0A66C2;
+            color: #fff;
+            padding: 2px 8px;
+            font-weight: 700;
+            font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+            display: inline;
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone
+        }
+
+        .bonus-list {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            max-width: 900px;
+            margin: 48px auto 0
+        }
+
+        .bonus-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+            border: 1px solid rgba(255, 255, 255, .2);
+            border-radius: 12px;
+            padding: 24px;
+            background: #fff;
+            color: #000
+        }
+
+        @media(min-width:768px) {
+            .bonus-card {
+                flex-direction: row
+            }
+        }
+
+        .bonus-card .info {
+            flex: 1
+        }
+
+        .bonus-card .info h3 {
+            font-size: 1.25rem;
+            font-weight: 900;
+            margin-bottom: 12px
+        }
+
+        .bonus-card .info h3 span {
+            background: #0A66C2;
+            color: #fff;
+            padding: 2px 8px
+        }
+
+        .bonus-card .info p {
+            font-size: .875rem;
+            color: rgba(0, 0, 0, .7);
+            line-height: 1.5;
+            margin-bottom: 16px
+        }
+
+        .bonus-card .prices {
+            display: flex;
+            align-items: center;
+            gap: 16px
+        }
+
+        .bonus-card .prices .old {
+            color: hsl(0, 84%, 60%);
+            text-decoration: line-through;
+            font-weight: 700;
+            font-size: 1.125rem
+        }
+
+        .bonus-card .prices .free {
+            color: #0A66C2;
+            font-weight: 900;
+            font-size: 1.5rem
+        }
+
+        /* OFFER */
+        .offer {
+            background: #000;
+            padding: 32px 0 48px
+        }
+
+        .offer-card {
+            max-width: 512px;
+            margin: 0 auto;
+            position: relative;
+            display: block;
+            background: hsl(0, 0%, 8%);
+            border-radius: 16px;
+            border: 1px solid hsl(0, 0%, 20%);
+            overflow: hidden;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, .5);
+            transition: border-color .3s
+        }
+
+        .offer-card:hover {
+            border-color: rgba(10, 102, 194, .5)
+        }
+
+        .offer-header {
+            background: #0A66C2;
+            padding: 24px;
+            text-align: center
+        }
+
+        .offer-header h2 {
+            font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+            font-weight: 900;
+            color: #fff
+        }
+
+        .offer-items {
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px
+        }
+
+        .offer-item {
+            display: flex;
+            align-items: center;
+            gap: 12px
+        }
+
+        .offer-item .check {
+            width: 24px;
+            height: 24px;
+            border-radius: 3px;
+            background: #0A66C2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0
+        }
+
+        .offer-item .check svg {
+            width: 16px;
+            height: 16px;
+            color: #fff
+        }
+
+        .offer-item p {
+            font-weight: 700;
+            font-size: .875rem;
+            color: #fff
+        }
+
+        .offer-cta {
+            padding: 0 24px 32px;
+            text-align: center
+        }
+
+        .offer-price {
+            font-size: 3rem;
+            font-weight: 900;
+            color: #0A66C2
+        }
+
+        /* GUARANTEE */
+        .guarantee {
+            background: #000;
+            padding: 32px 0 48px
+        }
+
+        .guarantee-card {
+            max-width: 576px;
+            margin: 0 auto;
+            border: 2px solid #0A66C2;
+            border-radius: 16px;
+            padding: 32px;
+            text-align: center;
+            background: hsl(0, 0%, 8%)
+        }
+
+        @media(min-width:768px) {
+            .guarantee-card {
+                padding: 48px
+            }
+        }
+
+        .guarantee-card h2 {
+            font-size: clamp(1.25rem, 3vw, 2.25rem);
+            font-weight: 900;
+            margin-bottom: 16px
+        }
+
+        .guarantee-card>p {
+            color: #b3b3b3;
+            line-height: 1.6;
+            margin-bottom: 32px
+        }
+
+        .guarantee-box {
+            background: #000;
+            border: 1px solid hsl(0, 0%, 20%);
+            border-radius: 12px;
+            padding: 24px
+        }
+
+        .guarantee-box p {
+            font-weight: 700;
+            font-size: .875rem
+        }
+
+        @media(min-width:768px) {
+            .guarantee-box p {
+                font-size: 1rem
+            }
+        }
+
+        /* FAQ */
+        .faq {
+            background: #000;
+            padding: 32px 0 64px
+        }
+
+        .faq h2 {
+            font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+            font-weight: 900;
+            margin-bottom: 32px
+        }
+
+        .faq-list {
+            max-width: 640px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 12px
+        }
+
+        .faq-item {
+            background: hsl(0, 0%, 8%);
+            border: 1px solid hsl(0, 0%, 20%);
+            border-radius: 12px;
+            overflow: hidden
+        }
+
+        .faq-item summary {
+            padding: 16px 20px;
+            font-weight: 700;
+            font-size: .9rem;
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center
+        }
+
+        .faq-item summary::-webkit-details-marker {
+            display: none
+        }
+
+        .faq-item summary::after {
+            content: '+';
+            font-size: 1.25rem;
+            color: #0A66C2;
+            font-weight: 900
+        }
+
+        .faq-item[open] summary::after {
+            content: '-'
+        }
+
+        .faq-item .answer {
+            padding: 0 20px 16px;
+            font-size: .875rem;
+            color: #b3b3b3;
+            line-height: 1.6
+        }
+
+        /* HERO CAROUSEL */
+        .hero-carousel {
+            position: relative;
+            max-width: 500px;
+            margin: 32px auto 24px;
+            overflow: hidden;
+            border-radius: 16px
+        }
+
+        .hero-carousel-track {
+            display: flex;
+            transition: transform .5s ease;
+            touch-action: pan-y
+        }
+
+        .hero-carousel-track img {
+            width: 100%;
+            flex-shrink: 0;
+            border-radius: 16px;
+            filter: drop-shadow(0 25px 50px rgba(10, 102, 194, .3));
+            object-fit: cover
+        }
+
+        .hero-dots {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 12px
+        }
+
+        .hero-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 9999px;
+            background: rgba(255, 255, 255, .4);
+            border: none;
+            cursor: pointer;
+            transition: all .3s
+        }
+
+        .hero-dot.active {
+            background: #0A66C2;
+            width: 24px
+        }
+
+        .hero-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, .6);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, .2);
+            color: #fff;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 5;
+            transition: all .2s
+        }
+
+        .hero-arrow:hover {
+            background: rgba(10, 102, 194, .8);
+            border-color: #0A66C2
+        }
+
+        .hero-arrow.prev {
+            left: 10px
+        }
+
+        .hero-arrow.next {
+            right: 10px
+        }
+
+        /* FOOTER */
+        .footer {
+            background: hsl(0, 0%, 5%);
+            padding: 24px 0;
+            text-align: center;
+            border-top: 1px solid hsl(0, 0%, 15%)
+        }
+
+        .footer p {
+            font-size: .75rem;
+            color: #666
+        }
+
+        /* ===== RESPONSIVO MOBILE ===== */
+        @media(max-width:480px) {
+            .container {
+                padding: 0 12px
+            }
+
+            .hero .container {
+                padding-top: 24px
+            }
+
+            .hero h1 {
+                font-size: 1.75rem;
+                line-height: 1.15;
+                margin-bottom: 12px
+            }
+
+            .hero p.subtitle {
+                font-size: .8rem;
+                padding: 0 4px
+            }
+
+            .highlight,
+            .highlight-yellow {
+                padding: 1px 6px
+            }
+
+            /* Carousel */
+            .hero-carousel {
+                margin: 20px auto 16px;
+                border-radius: 12px
+            }
+
+            .hero-arrow {
+                width: 32px;
+                height: 32px;
+                font-size: 14px
+            }
+
+            .hero-arrow.prev {
+                left: 6px
+            }
+
+            .hero-arrow.next {
+                right: 6px
+            }
+
+            .hero-dots {
+                margin-top: 8px
+            }
+
+            /* Price bar */
+            .hero-price-bar {
+                padding: 32px 16px 24px !important
+            }
+
+            .hero-price-bar .price-new {
+                font-size: 2.5rem
+            }
+
+            .hero-price-bar .price-old {
+                font-size: 1rem
+            }
+
+            .hero-price-bar .label {
+                font-size: 1rem
+            }
+
+            /* CTA */
+            .cta-btn {
+                padding: 16px 24px;
+                font-size: .95rem
+            }
+
+            /* Benefits */
+            .benefits {
+                padding: 24px 0 32px
+            }
+
+            .benefit-item p {
+                font-size: .875rem
+            }
+
+            /* Target */
+            .target {
+                padding: 24px 0 32px
+            }
+
+            .target h2 {
+                font-size: 1.35rem;
+                margin-bottom: 32px
+            }
+
+            .target h2 .label-highlight {
+                font-size: 1.25rem;
+                padding: 6px 12px
+            }
+
+            .target-card {
+                padding: 10px
+            }
+
+            .target-card .title {
+                font-size: .8rem
+            }
+
+            .target-card .desc {
+                font-size: .7rem
+            }
+
+            .target-card .emoji {
+                font-size: 1.25rem
+            }
+
+            /* Before/After */
+            .before-after {
+                padding: 24px 0 32px
+            }
+
+            .ba-grid {
+                gap: 8px
+            }
+
+            .ba-grid h3 {
+                font-size: .9rem
+            }
+
+            .ba-grid .subtitle {
+                font-size: .7rem
+            }
+
+            .metric .label {
+                font-size: .75rem
+            }
+
+            .metric .row span {
+                font-size: .65rem
+            }
+
+            .progress-bar {
+                height: 8px
+            }
+
+            /* Categories */
+            .categories {
+                padding: 24px 0 32px
+            }
+
+            .cat-grid {
+                gap: 8px
+            }
+
+            .cat-grid-img {
+                gap: 8px
+            }
+
+            .cat-card {
+                padding: 12px
+            }
+
+            .cat-card .emoji {
+                font-size: 1.5rem;
+                margin-bottom: 4px
+            }
+
+            .cat-card .name {
+                font-size: .75rem
+            }
+
+            .cat-card .count {
+                font-size: .65rem
+            }
+
+            .cat-card-label {
+                padding: 8px
+            }
+
+            .cat-card-label .name {
+                font-size: .75rem
+            }
+
+            .cat-card-label .count {
+                font-size: .6rem
+            }
+
+            /* Bonus */
+            .bonus-section {
+                padding: 24px 0 32px
+            }
+
+            .bonus-list {
+                margin-top: 24px;
+                gap: 20px
+            }
+
+            .bonus-card {
+                padding: 16px
+            }
+
+            .bonus-card .info h3 {
+                font-size: 1rem
+            }
+
+            .bonus-card .info h3 span {
+                padding: 1px 6px
+            }
+
+            .bonus-card .info p {
+                font-size: .8rem
+            }
+
+            .bonus-card .prices .old {
+                font-size: 1rem
+            }
+
+            .bonus-card .prices .free {
+                font-size: 1.25rem
+            }
+
+            /* Offer */
+            .offer {
+                padding: 24px 0 32px
+            }
+
+            .offer-items {
+                padding: 16px
+            }
+
+            .offer-item p {
+                font-size: .8rem
+            }
+
+            .offer-cta {
+                padding: 0 16px 24px
+            }
+
+            .offer-price {
+                font-size: 2.5rem
+            }
+
+            /* Guarantee */
+            .guarantee {
+                padding: 24px 0 32px
+            }
+
+            .guarantee-card {
+                padding: 24px 16px
+            }
+
+            .guarantee-card h2 {
+                font-size: 1.15rem
+            }
+
+            .guarantee-card>p {
+                font-size: .85rem
+            }
+
+            .guarantee-box {
+                padding: 16px
+            }
+
+            .guarantee-box p {
+                font-size: .8rem
+            }
+
+            /* FAQ */
+            .faq {
+                padding: 24px 0 40px
+            }
+
+            .faq-item summary {
+                padding: 12px 16px;
+                font-size: .8rem
+            }
+
+            .faq-item .answer {
+                padding: 0 16px 12px;
+                font-size: .8rem
+            }
+        }
+
+        /* Tablet */
+        @media(min-width:481px) and (max-width:768px) {
+            .hero h1 {
+                font-size: 1.75rem
+            }
+
+            .hero-carousel {
+                max-width: 400px
+            }
+
+            .target h2 .label-highlight {
+                font-size: 1.5rem
+            }
+
+            .cat-grid {
+                max-width: 500px
+            }
+
+            .ba-grid {
+                max-width: 600px
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="height:2px;width:100%;background:linear-gradient(to right,transparent,#0A66C2,transparent)"></div>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container">
+            <div class="reveal from-up" style="margin-bottom:32px">
+                <div class="text-center">
+                    <h1>
+                        <span class="highlight">300+ Prompts Testados</span> para gerar fotos de perfil <span
+                            class="highlight-yellow">profissional no LinkedIn</span> que atraem oportunidades
+                    </h1>
+                    <p class="subtitle">Recrutadores decidem em 3 segundos se vão clicar no seu perfil. Sem os prompts
+                        certos,
+                        qualquer IA gera foto com cara de amador. Aqui dentro você recebe os prompts que transformam IA
+                        gratuita em
+                        sessão fotográfica de estúdio.</p>
+                </div>
+            </div>
+            <div class="reveal from-up" data-delay="200">
+                <div class="hero-carousel">
+                    <button class="hero-arrow prev" onclick="heroGoTo(window._heroIdx-1)">&#8249;</button>
+                    <button class="hero-arrow next" onclick="heroGoTo(window._heroIdx+1)">&#8250;</button>
+                    <div class="hero-carousel-track" id="heroTrack">
+                        <img decoding="async"
+                            src="https://cdn.geraew.com.br/storage/v1/object/public/ai-generations/admin_assets/prompts/f8ad63ca-675d-46cc-98f5-212b9bf64e5a/how-to-create-a-cinematic-studio-portrait-with-nano-banana-v0-0sbifymlvamg1.webp"
+                            alt="Foto de perfil profissional LinkedIn 1" style="aspect-ratio:3/4;object-fit:cover" />
+                        <img decoding="async"
+                            src="https://cdn.geraew.com.br/storage/v1/object/public/ai-generations/generations/cmnyvh4xu028ppq01tcjg1cyd/1eebe7ce-f874-4477-b605-a35576269b44/output_0.png"
+                            alt="Foto de perfil profissional LinkedIn 2" style="aspect-ratio:3/4;object-fit:cover" />
+                        <img decoding="async"
+                            src="https://cdn.geraew.com.br/storage/v1/object/public/ai-generations/generations/cmnz2xp41034ypq017w69q8mg/1860cd12-ec30-4dda-b8b7-df60515ccc74/output_0.png"
+                            alt="Foto de perfil profissional LinkedIn 3" style="aspect-ratio:3/4;object-fit:cover" />
+                    </div>
+                    <div class="hero-dots">
+                        <button class="hero-dot active" onclick="heroGoTo(0)"></button>
+                        <button class="hero-dot" onclick="heroGoTo(1)"></button>
+                        <button class="hero-dot" onclick="heroGoTo(2)"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="position:relative;margin-top:-16px">
+            <div class="hero-price-bar" style="padding-top:40px">
+                <p class="price-old">de R$ 197,00</p>
+                <p class="label">POR APENAS</p>
+                <p class="price-new">R$ 19,90</p>
+                <p class="small-text">ACESSO IMEDIATO + GARANTIA DE 7 DIAS</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <div style="background:#fff;padding:0 16px 32px">
+        <a href="#" class="cta-btn">QUERO OS 300+ PROMPTS AGORA</a>
+    </div>
+
+    <!-- DOR -->
+    <section style="background:#000;padding:32px 0 40px">
+        <div class="container" style="max-width:640px">
+            <div class="reveal from-up">
+                <h2
+                    style="font-size:clamp(1.25rem,3.5vw,1.75rem);font-weight:900;text-align:center;margin-bottom:24px;line-height:1.25">
+                    Sua foto de perfil está te fazendo <span style="color:hsl(0,84%,60%)">perder oportunidades</span> no
+                    LinkedIn?
+                </h2>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:14px">
+                <div class="reveal from-left" data-delay="0"
+                    style="display:flex;align-items:flex-start;gap:12px;background:hsl(0,0%,5%);border:1px solid hsl(0,0%,15%);border-radius:10px;padding:14px">
+                    <span style="font-size:1.25rem;flex-shrink:0">💸</span>
+                    <p style="font-size:.875rem;color:#ccc;line-height:1.5"><strong style="color:hsl(0,84%,60%)">Pagou
+                            caro em
+                            sessão fotográfica</strong> — e o resultado não transmitiu a autoridade que você precisava.
+                        Foto bonita,
+                        mas sem o impacto que atrai recrutadores.</p>
+                </div>
+                <div class="reveal from-right" data-delay="80"
+                    style="display:flex;align-items:flex-start;gap:12px;background:hsl(0,0%,5%);border:1px solid hsl(0,0%,15%);border-radius:10px;padding:14px">
+                    <span style="font-size:1.25rem;flex-shrink:0">👀</span>
+                    <p style="font-size:.875rem;color:#ccc;line-height:1.5"><strong style="color:hsl(0,84%,60%)">Seu
+                            perfil recebe
+                            poucas visualizações</strong> — enquanto outros profissionais do mesmo nível aparecem na
+                        frente dos
+                        recrutadores. A diferença muitas vezes começa na foto.</p>
+                </div>
+                <div class="reveal from-left" data-delay="160"
+                    style="display:flex;align-items:flex-start;gap:12px;background:hsl(0,0%,5%);border:1px solid hsl(0,0%,15%);border-radius:10px;padding:14px">
+                    <span style="font-size:1.25rem;flex-shrink:0">🗑️</span>
+                    <p style="font-size:.875rem;color:#ccc;line-height:1.5"><strong style="color:hsl(0,84%,60%)">Usou
+                            foto do
+                            celular ou de evento</strong> — e o perfil ficou com aspecto amador. Recrutadores percebem
+                        isso em
+                        segundos e passam para o próximo.</p>
+                </div>
+                <div class="reveal from-right" data-delay="240"
+                    style="display:flex;align-items:flex-start;gap:12px;background:hsl(0,0%,5%);border:1px solid hsl(0,0%,15%);border-radius:10px;padding:14px">
+                    <span style="font-size:1.25rem;flex-shrink:0">⏰</span>
+                    <p style="font-size:.875rem;color:#ccc;line-height:1.5"><strong style="color:hsl(0,84%,60%)">Testou
+                            IAs e saiu
+                            foto com cara de gerada</strong> — poses artificiais, iluminação estranha, expressão
+                        robótica. Parecia
+                        mais caricatura do que profissional de verdade.</p>
+                </div>
+            </div>
+            <div class="reveal from-up" data-delay="300" style="margin-top:24px">
+                <div
+                    style="background:linear-gradient(135deg,rgba(10,102,194,.1),rgba(10,102,194,.05));border-left:3px solid #0A66C2;border-radius:8px;padding:16px;text-align:left">
+                    <p style="font-size:.9rem;font-weight:700;color:#fff;margin-bottom:4px">O problema nunca foi a IA.
+                        Foi o
+                        prompt.</p>
+                    <p style="font-size:.8rem;color:#b3b3b3">Com os prompts certos, você gera foto com qualidade de
+                        estúdio
+                        profissional — sem pagar fotógrafo e sem assinar nenhuma ferramenta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits-grid">
+                <div class="benefits-list">
+                    <div class="reveal from-up" data-delay="0">
+                        <div class="benefit-item">
+                            <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <path d="M20 6L9 17l-5-5" />
+                                </svg></div>
+                            <p><strong>300+ prompts prontos</strong> para copiar, colar e gerar</p>
+                        </div>
+                    </div>
+                    <div class="reveal from-up" data-delay="50">
+                        <div class="benefit-item">
+                            <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <path d="M20 6L9 17l-5-5" />
+                                </svg></div>
+                            <p>Fotos com qualidade de estúdio profissional (ninguém percebe que é IA)</p>
+                        </div>
+                    </div>
+                    <div class="reveal from-up" data-delay="100">
+                        <div class="benefit-item">
+                            <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <path d="M20 6L9 17l-5-5" />
+                                </svg></div>
+                            <p>Diferentes estilos: formal, business casual, outdoor, home office</p>
+                        </div>
+                    </div>
+                    <div class="reveal from-up" data-delay="150">
+                        <div class="benefit-item">
+                            <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <path d="M20 6L9 17l-5-5" />
+                                </svg></div>
+                            <p>Transmitem autoridade, credibilidade e profissionalismo</p>
+                        </div>
+                    </div>
+                    <div class="reveal from-up" data-delay="200">
+                        <div class="benefit-item">
+                            <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <path d="M20 6L9 17l-5-5" />
+                                </svg></div>
+                            <p>Otimizados para IAs gratuitas — você não paga nenhuma ferramenta</p>
+                        </div>
+                    </div>
+                    <div class="reveal from-up" data-delay="250">
+                        <div class="benefit-item">
+                            <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <path d="M20 6L9 17l-5-5" />
+                                </svg></div>
+                            <p>Organizados por categoria: terno, casual, executivo, criativo...</p>
+                        </div>
+                    </div>
+                    <div class="reveal from-up" data-delay="300">
+                        <div class="benefit-item">
+                            <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <path d="M20 6L9 17l-5-5" />
+                                </svg></div>
+                            <p>Testados e validados — não é prompt genérico da internet</p>
+                        </div>
+                    </div>
+                    <div class="reveal from-up" data-delay="350">
+                        <div class="benefit-item">
+                            <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <path d="M20 6L9 17l-5-5" />
+                                </svg></div>
+                            <p>Licença pessoal + atualizações vitaliciamente</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal from-right" data-delay="200">
+                    <div class="benefits-image">
+                        <div
+                            style="background:linear-gradient(135deg,#111,#0a0a0a);border-radius:16px;padding:32px;border:1px solid #222;text-align:center">
+                            <p style="font-size:3rem" class="apple-emoji">💼</p>
+                            <p style="font-weight:800;margin-top:12px;font-size:1.1rem">300+ Prompts LinkedIn
+                                Profissional</p>
+                            <p style="color:#0A66C2;font-size:.875rem;margin-top:8px;font-weight:600">Copie. Cole. Seja
+                                encontrado por
+                                recrutadores.</p>
+                            <p style="color:#666;font-size:.75rem;margin-top:4px">+ tutorial das IAs gratuitas onde usar
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TARGET AUDIENCE -->
+    <section class="target">
+        <div class="target-bg"></div>
+        <div class="container">
+            <div class="reveal from-up">
+                <h2 class="text-center"><span class="label-highlight"><span class="bg"></span><span>ESSES PROMPTS SÃO
+                            PRA VOCÊ
+                            QUE:</span></span></h2>
+            </div>
+            <div class="target-grid">
+                <div class="reveal from-left" data-delay="0">
+                    <div class="target-card"><span class="emoji apple-emoji">🎯</span>
+                        <div>
+                            <p class="title"><span>QUER SER ENCONTRADO POR RECRUTADORES</span></p>
+                            <p class="desc">mas seu perfil atual não transmite o profissionalismo que você realmente tem
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal from-right" data-delay="80">
+                    <div class="target-card"><span class="emoji apple-emoji">💼</span>
+                        <div>
+                            <p class="title"><span>ESTÁ BUSCANDO RECOLOCAÇÃO</span></p>
+                            <p class="desc">e precisa de uma imagem impecável para se destacar entre centenas de
+                                candidatos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal from-left" data-delay="160">
+                    <div class="target-card"><span class="emoji apple-emoji">🚀</span>
+                        <div>
+                            <p class="title"><span>É EMPREENDEDOR OU FREELANCER</span></p>
+                            <p class="desc">e quer que seu perfil transmita autoridade para atrair clientes de alto
+                                valor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal from-right" data-delay="240">
+                    <div class="target-card"><span class="emoji apple-emoji">📈</span>
+                        <div>
+                            <p class="title"><span>QUER CRESCER NA CARREIRA</span></p>
+                            <p class="desc">e sabe que a primeira impressão no LinkedIn pode abrir ou fechar portas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal from-left" data-delay="320">
+                    <div class="target-card"><span class="emoji apple-emoji">🎓</span>
+                        <div>
+                            <p class="title"><span>ACABOU DE SE FORMAR</span></p>
+                            <p class="desc">e precisa de uma foto que transmita maturidade e profissionalismo logo de
+                                cara</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal from-right" data-delay="400">
+                    <div class="target-card"><span class="emoji apple-emoji">⚡</span>
+                        <div>
+                            <p class="title"><span>QUER RESULTADO RÁPIDO</span></p>
+                            <p class="desc">sem pagar fotógrafo, sem agendar sessão, sem esperar semanas pelo resultado
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BEFORE/AFTER -->
+    <section class="before-after" id="beforeAfterSection">
+        <div class="container">
+            <div class="reveal from-up">
+                <h2 class="text-center"
+                    style="margin-bottom:32px;font-weight:900;font-size:clamp(1.5rem,3.5vw,2.25rem)">Concorrente vs <span style="color:#22c55e">Você com nossos prompts</span></h2>
+            </div>
+            <div class="ba-grid">
+                <div class="reveal from-left"><img decoding="async"
+                        src="https://cdn.geraew.com.br/storage/v1/object/public/ai-generations/admin_assets/landing/0a920531-56ea-4e67-964b-2b62aa133ff5/IMG_1049.png"
+                        alt="Prompt genérico" style="aspect-ratio:3/4;object-fit:cover;border-radius:12px" /></div>
+                <div class="reveal from-right"><img decoding="async"
+                        src="https://cdn.geraew.com.br/storage/v1/object/public/ai-generations/generations/cmnzjg6ch0260mf0186tquplm/93ae029a-caff-4087-8f3a-a6c0411ef004/output_0.png"
+                        alt="Nosso prompt" style="aspect-ratio:3/4;object-fit:cover;border-radius:12px" /></div>
+                <div class="reveal from-up" data-delay="200">
+                    <h3 class="red">Foto do seu concorrente</h3>
+                </div>
+                <div class="reveal from-up" data-delay="200">
+                    <h3 class="green">Suas fotos com nossos prompts</h3>
+                </div>
+                <div class="subtitle">Perfil comum, passa despercebido</div>
+                <div class="subtitle">Perfil que chama atenção</div>
+                <div class="metric">
+                    <p class="label">Qualidade Visual</p>
+                    <div class="row"><span>Parece foto de amador</span><span class="val red">12%</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill red waiting" data-width="12"></div>
+                    </div>
+                </div>
+                <div class="metric">
+                    <p class="label">Qualidade Visual</p>
+                    <div class="row"><span>Qualidade de estúdio</span><span class="val green">97%</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill green waiting" data-width="97"></div>
+                    </div>
+                </div>
+                <div class="metric">
+                    <p class="label">Impacto Profissional</p>
+                    <div class="row"><span>Não transmite autoridade</span><span class="val red">8%</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill red waiting" data-width="8"></div>
+                    </div>
+                </div>
+                <div class="metric">
+                    <p class="label">Impacto Profissional</p>
+                    <div class="row"><span>Transmite credibilidade</span><span class="val green">96%</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill green waiting" data-width="96"></div>
+                    </div>
+                </div>
+                <div class="metric">
+                    <p class="label">Velocidade</p>
+                    <div class="row"><span>Horas tentando</span><span class="val red">15%</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill red waiting" data-width="15"></div>
+                    </div>
+                </div>
+                <div class="metric">
+                    <p class="label">Velocidade</p>
+                    <div class="row"><span>Resultado em 60s</span><span class="val green">100%</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill green waiting" data-width="100"></div>
+                    </div>
+                </div>
+                <div class="metric">
+                    <p class="label">Naturalidade</p>
+                    <div class="row"><span>Expressão artificial</span><span class="val red">10%</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill red waiting" data-width="10"></div>
+                    </div>
+                </div>
+                <div class="metric">
+                    <p class="label">Naturalidade</p>
+                    <div class="row"><span>100% natural e humano</span><span class="val green">95%</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill green waiting" data-width="95"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATEGORIAS -->
+    <section class="categories">
+        <div class="container">
+            <div class="reveal from-up">
+                <h2 class="text-center">O que vem dentro do <span class="highlight">Pack</span></h2>
+            </div>
+            <div class="cat-grid cat-grid-img" style="margin-top:32px">
+                <div class="reveal from-up" data-delay="0">
+                    <div class="cat-card-img"><img decoding="async"
+                            src="https://cdn.geraew.com.br/storage/v1/object/public/ai-generations/generations/cmnz2xp41034ypq017w69q8mg/1860cd12-ec30-4dda-b8b7-df60515ccc74/output_0.png"
+                            alt="Estilo Formal / Terno" />
+                        <div class="cat-card-label">
+                            <p class="name">Estilo Formal / Terno</p>
+                            <p class="count">18+ prompts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal from-up" data-delay="50">
+                    <div class="cat-card-img"><img decoding="async"
+                            src="https://cdn.geraew.com.br/storage/v1/object/public/ai-generations/generations/cmnyvw1cp02bwpq01izcqi9p4/338a14bc-232a-4a63-9cfe-89dffa5e24cb/output_0.png"
+                            alt="Business Casual" />
+                        <div class="cat-card-label">
+                            <p class="name">Business Casual</p>
+                            <p class="count">20+ prompts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal from-up" data-delay="100">
+                    <div class="cat-card-img"><img decoding="async"
+                            src="https://cdn.geraew.com.br/storage/v1/object/public/ai-generations/generations/cmnyvh4xu028ppq01tcjg1cyd/1eebe7ce-f874-4477-b605-a35576269b44/output_0.png"
+                            alt="Outdoor Profissional" />
+                        <div class="cat-card-label">
+                            <p class="name">Outdoor Profissional</p>
+                            <p class="count">15+ prompts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal from-up" data-delay="150">
+                    <div class="cat-card-img"><img decoding="async"
+                            src="https://cdn.geraew.com.br/storage/v1/object/public/ai-generations/generations/cmnypddse011ppq01wusam28e/2acd9ff2-f937-4d29-b253-eb3f9163a5a2/output_0.png"
+                            alt="Home Office Premium" />
+                        <div class="cat-card-label">
+                            <p class="name">Home Office Premium</p>
+                            <p class="count">18+ prompts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal from-up" data-delay="200">
+                    <div class="cat-card-img"><img decoding="async"
+                            src="https://cdn.geraew.com.br/storage/v1/object/public/ai-generations/generations/cmnyx442a02gapq0102j5k83r/f9fd56a0-9da1-4183-bda3-0fdc0bd22bd2/output_0.png"
+                            alt="Executivo / CEO Look" />
+                        <div class="cat-card-label">
+                            <p class="name">Executivo / CEO Look</p>
+                            <p class="count">16+ prompts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal from-up" data-delay="250">
+                    <div class="cat-card-img"><img decoding="async"
+                            src="https://cdn.geraew.com.br/storage/v1/object/public/ai-generations/generations/cmnzjg6ch0260mf0186tquplm/93ae029a-caff-4087-8f3a-a6c0411ef004/output_0.png"
+                            alt="Criativo / Tech Professional" />
+                        <div class="cat-card-label">
+                            <p class="name">Criativo / Tech Professional</p>
+                            <p class="count">15+ prompts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA MEIO -->
+    <section style="background:#000;padding:32px 0">
+        <div class="container text-center">
+            <p style="font-size:1.25rem;font-weight:700;margin-bottom:16px">Tudo isso por <span
+                    style="color:hsl(0,84%,60%);text-decoration:line-through">R$ 197</span> <span
+                    style="color:#0A66C2;font-weight:900;font-size:1.5rem">R$ 19,90</span></p>
+            <a href="#" class="cta-btn">QUERO OS 300+ PROMPTS AGORA</a>
+        </div>
+    </section>
+
+    <!-- BONUS -->
+    <section class="bonus-section">
+        <div class="container">
+            <div class="reveal from-up">
+                <h2 class="text-center">COMPRANDO HOJE</h2>
+                <p class="text-center"><span class="subtitle-tag">VOCÊ LEVA ESSES BÔNUS</span></p>
+            </div>
+            <div class="bonus-list">
+                <div class="reveal from-left" data-delay="100">
+                    <div class="bonus-card">
+                        <div class="info">
+                            <h3><span>BÔNUS 1: GUIA DE OTIMIZAÇÃO DO PERFIL LINKEDIN</span></h3>
+                            <p>Além da foto, descubra os 5 elementos do perfil que recrutadores olham primeiro.
+                                Headline, resumo,
+                                banner e mais. Passo a passo com prints e exemplos reais.</p>
+                            <div class="prices"><span class="old">R$ 47,00</span><span class="free">GRÁTIS</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal from-right" data-delay="200">
+                    <div class="bonus-card">
+                        <div class="info">
+                            <h3><span>BÔNUS 2: GUIA DO BOOST — COMO APARECER NO TOPO DAS BUSCAS DO LINKEDIN EM
+                                    48H</span></h3>
+                            <p>Descubra os ajustes de SEO do perfil que recrutadores usam para filtrar candidatos:
+                                palavras-chave certas, seções estratégicas e configurações que a maioria ignora. Aplique
+                                em minutos e comece a aparecer nas buscas ainda esta semana.</p>
+                            <div class="prices"><span class="old">R$ 37,00</span><span class="free">GRÁTIS</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal from-left" data-delay="300">
+                    <div class="bonus-card">
+                        <div class="info">
+                            <h3><span>BÔNUS 3: TUTORIAL DAS IAs GRATUITAS PARA FOTOS PROFISSIONAIS</span></h3>
+                            <p>Passo a passo em vídeo de como usar ferramentas 100% gratuitas para gerar sua foto de
+                                perfil com
+                                qualidade de estúdio. Sem pagar nenhuma assinatura, sem complicação.</p>
+                            <div class="prices"><span class="old">R$ 67,00</span><span class="free">GRÁTIS</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OFFER -->
+    <section class="offer">
+        <div class="container">
+            <div class="reveal from-up">
+                <a href="#" class="offer-card" style="text-decoration:none">
+                    <div class="offer-header">
+                        <h2>PACK 300+ PROMPTS FOTO LINKEDIN PROFISSIONAL</h2>
+                    </div>
+                    <div class="offer-items">
+                        <div class="offer-item">
+                            <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <path d="M20 6L9 17l-5-5" />
+                                </svg></div>
+                            <p>300+ Prompts testados e organizados por categoria</p>
+                        </div>
+                        <div class="offer-item">
+                            <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <path d="M20 6L9 17l-5-5" />
+                                </svg></div>
+                            <p>Fotos com qualidade de estúdio profissional</p>
+                        </div>
+                        <div class="offer-item">
+                            <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <path d="M20 6L9 17l-5-5" />
+                                </svg></div>
+                            <p>Estilos: formal, casual, outdoor, executivo, home office, tech</p>
+                        </div>
+                        <div class="offer-item">
+                            <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <path d="M20 6L9 17l-5-5" />
+                                </svg></div>
+                            <p>Otimizados para IAs gratuitas (você não paga ferramenta)</p>
+                        </div>
+                        <div class="offer-item">
+                            <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <path d="M20 6L9 17l-5-5" />
+                                </svg></div>
+                            <p>Bônus: Tutorial das IAs gratuitas para fotos profissionais</p>
+                        </div>
+                        <div class="offer-item">
+                            <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <path d="M20 6L9 17l-5-5" />
+                                </svg></div>
+                            <p>Bônus: Guia de Otimização do Perfil LinkedIn</p>
+                        </div>
+                        <div class="offer-item">
+                            <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <path d="M20 6L9 17l-5-5" />
+                                </svg></div>
+                            <p>Bônus: Guia do Boost — Apareça no Topo das Buscas em 48h</p>
+                        </div>
+                        <div class="offer-item">
+                            <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <path d="M20 6L9 17l-5-5" />
+                                </svg></div>
+                            <p>Garantia incondicional de 7 dias</p>
+                        </div>
+                    </div>
+                    <div class="offer-cta">
+                        <p style="color:hsl(0,84%,60%);text-decoration:line-through;font-weight:700;margin-bottom:4px">
+                            de R$ 197,00
+                        </p>
+                        <p class="offer-price">R$ 19,90</p>
+                        <p style="color:#999;font-size:.8rem;margin-bottom:16px">pagamento único — menos que um café</p>
+                        <span class="cta-btn" style="max-width:100%">QUERO OS 300+ PROMPTS AGORA</span>
+                        <p style="color:#666;font-size:.7rem;margin-top:12px">Acesso imediato após confirmação do
+                            pagamento</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- GUARANTEE -->
+    <section class="guarantee">
+        <div class="container">
+            <div class="reveal from-up">
+                <div class="guarantee-card">
+                    <p style="font-size:4rem;margin-bottom:16px" class="apple-emoji">🛡️</p>
+                    <h2>Garantia INCONDICIONAL de 7 dias</h2>
+                    <p>Se você usar os prompts e achar que não valeu cada centavo, eu devolvo 100% do seu dinheiro. Sem
+                        perguntas,
+                        sem burocracia. O risco é todo meu.</p>
+                    <div class="guarantee-box">
+                        <p>Você tem 7 dias para testar todos os 300+ prompts. Se não gostar, basta pedir o reembolso que
+                            devolvemos
+                            na hora. Simples assim.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <div class="reveal from-up">
+                <h2 class="text-center">Dúvidas Frequentes</h2>
+            </div>
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary>O que exatamente eu recebo?</summary>
+                    <div class="answer">300+ prompts profissionais prontos para copiar e colar, organizados por 6
+                        categorias
+                        (formal, business casual, outdoor, home office, executivo e criativo). Mais os 3 bônus: tutorial
+                        das IAs
+                        gratuitas, guia de otimização do LinkedIn e guia do boost para aparecer nas buscas em 48h.</div>
+                </details>
+                <details class="faq-item">
+                    <summary>Preciso pagar alguma ferramenta de IA?</summary>
+                    <div class="answer">Não. Os prompts foram otimizados para funcionar com IAs 100% gratuitas. No
+                        bônus,
+                        mostramos exatamente quais usar e como. Você não precisa de Midjourney, Leonardo ou qualquer
+                        assinatura
+                        paga.</div>
+                </details>
+                <details class="faq-item">
+                    <summary>Preciso saber algo sobre IA?</summary>
+                    <div class="answer">Não. Os prompts são prontos — você só copia, cola e gera. O bônus inclui
+                        tutorial passo a
+                        passo mostrando onde colar e como gerar. Se sabe copiar e colar, sabe usar.</div>
+                </details>
+                <details class="faq-item">
+                    <summary>A foto vai parecer realmente profissional?</summary>
+                    <div class="answer">Sim. Os prompts foram testados para gerar fotos com qualidade de estúdio —
+                        iluminação,
+                        expressão e enquadramento profissionais. Ninguém vai perceber que é IA.</div>
+                </details>
+                <details class="faq-item">
+                    <summary>Posso usar a foto no LinkedIn?</summary>
+                    <div class="answer">Sim. A licença pessoal está inclusa. Você pode usar os resultados em qualquer
+                        plataforma
+                        profissional, incluindo LinkedIn, currículo, portfólio e outros.</div>
+                </details>
+                <details class="faq-item">
+                    <summary>E se eu não gostar?</summary>
+                    <div class="answer">Você tem 7 dias de garantia incondicional. Se achar que não valeu, pede o
+                        reembolso e
+                        devolvemos 100%. Sem perguntas.</div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section style="background:#000;padding:0 0 48px">
+        <div class="container text-center">
+            <a href="#" class="cta-btn">QUERO OS 300+ PROMPTS POR R$ 19,90</a>
+            <p style="color:#666;font-size:.7rem;margin-top:12px">Acesso imediato. Garantia de 7 dias. Pagamento seguro.
+            </p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <p>Pack Prompts LinkedIn — Todos os direitos reservados</p>
+        <p style="margin-top:4px">Este produto não garante resultados específicos no mercado de trabalho. Os resultados
+            dependem do perfil e dedicação de cada pessoa.</p>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script>
+        // Scroll Reveal
+        const io = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) { const d = parseInt(e.target.dataset.delay || 0); setTimeout(() => e.target.classList.add('visible'), d); io.unobserve(e.target) } }) }, { threshold: 0.15 });
+        document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+        // Progress Bars
+        const baObs = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) { document.querySelectorAll('.progress-fill.waiting').forEach(bar => { bar.style.width = bar.dataset.width + '%'; bar.classList.remove('waiting') }); baObs.unobserve(e.target) } }) }, { threshold: 0.3 });
+        const baSection = document.getElementById('beforeAfterSection');
+        if (baSection) baObs.observe(baSection);
+
+        // Hero Carousel
+        (function () {
+            const track = document.getElementById('heroTrack');
+            if (!track) return;
+            const dots = document.querySelectorAll('.hero-dot');
+            const total = track.children.length;
+            let current = 0;
+            window._heroIdx = 0;
+            let startX = 0, moveX = 0, dragging = false;
+
+            function heroGoTo(i) {
+                current = Math.max(0, Math.min(i, total - 1));
+                window._heroIdx = current;
+                track.style.transform = 'translateX(-' + current * 100 + '%)';
+                dots.forEach((d, idx) => d.classList.toggle('active', idx === current));
+            }
+            window.heroGoTo = heroGoTo;
+
+            // Touch swipe
+            track.addEventListener('touchstart', e => { startX = e.touches[0].clientX; dragging = true }, { passive: true });
+            track.addEventListener('touchmove', e => { if (dragging) moveX = e.touches[0].clientX - startX }, { passive: true });
+            track.addEventListener('touchend', () => { if (!dragging) return; dragging = false; if (moveX < -40) heroGoTo(current + 1); else if (moveX > 40) heroGoTo(current - 1); moveX = 0 });
+
+            // Mouse drag
+            track.addEventListener('mousedown', e => { startX = e.clientX; dragging = true; track.style.cursor = 'grabbing' });
+            track.addEventListener('mousemove', e => { if (dragging) moveX = e.clientX - startX });
+            track.addEventListener('mouseup', () => { if (!dragging) return; dragging = false; track.style.cursor = 'grab'; if (moveX < -40) heroGoTo(current + 1); else if (moveX > 40) heroGoTo(current - 1); moveX = 0 });
+            track.addEventListener('mouseleave', () => { dragging = false; track.style.cursor = 'grab' });
+            track.style.cursor = 'grab';
+
+            // Auto slide
+            setInterval(() => heroGoTo((current + 1) % total), 4000);
+        })();
+    </script>
+
+</body>
+
+</html>
